@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Malioboro | Jogja</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fffaf0;
+    }
+
+    header {
+      background: #8b4513; /* coklat hangat */
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 85%;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    section {
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(139,69,19,0.2);
+    }
+
+    h2 {
+      color: #d2691e; /* oranye coklat */
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    table, th, td {
+      border: 1px solid #deb887;
+      padding: 12px;
+    }
+
+    th {
+      background-color: #f4a460;
+      color: white;
+    }
+
+    footer {
+      background: #8b4513;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header id="home">
+  <h1>Wisata Malioboro, Jogja</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#facilities">Fasilitas</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#pricing">Harga</a></li>
+      <li><a href="#maps">Lokasi</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section id="about">
+    <h2>Tentang Malioboro</h2>
+    <p>Malioboro adalah jalan ikonik di pusat kota Yogyakarta, terkenal dengan <strong>pedagang kaki lima, toko batik, dan suasana kota yang hidup</strong>.  
+    Tempat ini menjadi favorit wisatawan untuk <em>shopping, kuliner, dan fotografi urban</em>.</p>
+    <p><mark>Spot wisata kota yang wajib dikunjungi saat ke Jogja!</mark></p>
+  </section>
+
+  <section id="facilities">
+    <h2>Fasilitas Wisata</h2>
+    <ul>
+      <li>Parkir motor & mobil</li>
+      <li>Toko suvenir dan batik</li>
+      <li>Warung makan & kuliner khas Jogja</li>
+      <li>Spot foto & lampu jalan estetik</li>
+      <li>Transportasi mudah (becak, andong, ojek online)</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Galeri</h2>
+
+    <img src="https://backpackerjakarta.com/wp-content/uploads/2017/03/malioboro-3.jpg" alt="Suasana Malioboro">
+    <img src="https://7summitstravel.com/public/uploads/news-1333.jpg" alt="Suasana Malioboro">
+
+    <h3>Video</h3>
+    <video width="25%" controls>
+      <source src="c:\Users\DADI\Downloads\ssstik.io_@arifgn__1770526605097.mp4" type="video/mp4">
+    </video>
+
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="c:\Users\DADI\Downloads\ssstik.io_@idunno10__1770526929963.mp4" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section id="pricing">
+    <h2>Harga Tiket / Biaya</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Kategori</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Parkir Motor</td>
+          <td>Rp 2.000 / hari</td>
+        </tr>
+        <tr>
+          <td>Parkir Mobil</td>
+          <td>Rp 5.000 / hari</td>
+        </tr>
+        <tr>
+          <td>Souvenir & Batik</td>
+          <td>Mulai Rp 20.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" style="color:red;"><strong>Catatan:</strong> Harga dapat berubah sesuai musim dan pedagang.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <section id="maps">
+    <h2>Lokasi Malioboro</h2>
+    <iframe
+      src="https://www.google.com/maps?q=Malioboro,Yogyakarta&output=embed"
+      width="100%"
+      height="400"
+      style="border:0; border-radius:12px;"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2023 Wisata Malioboro, Jogja</p>
+  <p>Email: <a href="mailto:info@wisatajogja.com" style="color:#8b4513;">info@wisatajogja.com</a></p>
+</footer>
+
+</body>
+</html>
